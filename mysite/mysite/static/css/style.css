@@ -1,0 +1,14 @@
+body{
+background-color: #000000;
+}
+.errorlist{
+color : red;
+}
+
+.navbar-collapse{
+justify-content: space-between;
+}
+
+.media{
+display: flex;
+}

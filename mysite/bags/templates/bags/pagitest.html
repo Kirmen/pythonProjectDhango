@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Тест пагінатора-функції : {{ block.super }} {%endblock %}
+
+{% block sidebar %}
+
+    {% include 'inc/_sidebar.html' %}
+
+{% endblock %}
+
+{% block content %}
+    <h1>Тест пагінатора-функції</h1>
+
+    {% for name in page_obj.object_list %}
+    <p>{{name}}</p>
+    {% endfor %}
+
+
+
+{% endblock %}
