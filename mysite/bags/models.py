@@ -17,7 +17,7 @@ class Bags(models.Model):
         return reverse('view_bag', kwargs={'pk': self.pk})
 
     def my_func(self):
-        return 'hello from model'
+        return 'hello from model!'
 
     def __str__(self):
         return self.title
